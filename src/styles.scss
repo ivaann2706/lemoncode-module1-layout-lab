@@ -1,0 +1,32 @@
+$color-base: red;
+$color-text: grey;
+
+.container {
+  display: flex;
+}
+
+.box {
+  flex-grow: 1;
+  margin: 2px;
+  padding: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.base-color {
+  flex-grow: 2;
+  background-color: $color-base;
+  color: $color-text;
+  min-width: 70px;
+}
+
+@for $i from 1 through 4 {
+  .darken-#{$i} {
+    background-color: darken($color-base, 7 * $i);
+    color: lighten($color-text, 15 * $i);
+  }
+  .lighten-#{$i} {
+    background-color: lighten($color-base, 7 * $i);
+    color: darken($color-text, 15 * $i);
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "lemoncode-module1-layout-lab",
+  "version": "1.0.0",
+  "description": "This repository contains the basic exercises of module 1 - Layout.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivaann2706/lemoncode-module1-layout-lab.git"
+  },
+  "author": "Iván Alba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivaann2706/lemoncode-module1-layout-lab/issues"
+  },
+  "homepage": "https://github.com/ivaann2706/lemoncode-module1-layout-lab#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
