@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 70px;
+  padding-top: 15px;
+  padding-left: 20px;
+  border: 2px solid grey;
+  font-family: cursive;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.base {
+  background-color: blue;
+}
+.important {
+  background-color: darkblue;
+}
+.warning {
+  background-color: cyan;
+}
+
+.principal-font {
+  font-family: serif;
+  margin-top: 20px;
+}
+
+.secondary-font {
+  margin: 20px 0px;
+  font-family: serif;
+}
+
+.shadow {
+  box-shadow: 10px 10px 8px DimGray;
+}
