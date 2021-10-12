@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+}
+
+.navbar > div {
+  flex: 1;
+  background-color: LightSeaGreen;
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.navbar > div:hover {
+  background-color: Teal;
+}
+
+@media screen and (max-width: 350px) {
+  .navbar {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: x-large;
+  }
+}
